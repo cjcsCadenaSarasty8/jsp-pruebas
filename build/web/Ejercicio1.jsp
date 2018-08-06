@@ -2,6 +2,7 @@
     Document   : Ejercicio1
     Created on : 4/08/2018, 07:15:33 PM
     Author     : Usuario
+    Funcion    : Indicar numero mayor dentro de tres valores
 --%>
 
 <%
@@ -41,9 +42,9 @@
         <h1>Buscar Numero Mayor</h1>
         
         <form method="POST" action="">
-            <p>Numero 1:<input type="text" name="n1"></p>
-            <p>Numero 2:<input type="text" name="n2"></p>
-            <p>Numero 3:<input type="text" name="n3"></p>
+            <p>Numero 1:<input type="numer" name="n1" Value="<%=n1%>"></p>
+            <p>Numero 2:<input type="number" name="n2" Value="<%=n2%>"></p>
+            <p>Numero 3:<input type="number" name="n3" Value="<%=n3%>"></p>
             <p><input type="submit" name="" value="Buscar Mayor"></p>
         </form>
         
